@@ -7,6 +7,7 @@ Then run
 
 `sudo python3 <filename>.py`
 
-Different examples have different levels of complexity. Most are adapted from the modmypi repo to be standalone.
+Different examples have different levels of complexity. 
+Most are adapted from the modmypi repo to be standalone, but the `sweep.py` is my own creation and I'm very proud of :).
 
 Have fun!  

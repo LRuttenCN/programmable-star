@@ -13,7 +13,7 @@ from gpiozero import LEDBoard
 MODE = "x"              # can be "x", "y", "x", "radial", "angular"
 MAX_BRIGHTNESS = 0.1    # maximum brightness of the LED's (between 0 and 1)
 CENTER_MIN_BRIGHTNESS = 0.05 # How much the center circle leds should light up at minimum, which can be pretty
-FUZZINESS = 0.2         # Value to indicate how much neighbouring leds should light up (between 0 and 1)
+FUZZINESS = 0.01         # Value to indicate how much neighbouring leds should light up (between 0 and 1)
 BOOMERANG = True        # Should the animation have a boomerang effect
 ANIMATION_SPEED = 0.2   # How fast the animation should run. Recommended is to change this value and keep FPS fixed.
 DURATION_IN_SECONDS = 10 # How long should the animation run (use None) to loop indefinitely

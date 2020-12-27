@@ -126,7 +126,7 @@ def calculate_led_positions(star, r_big, r_small, r_center):
     v_0_p = [r_big, to_theta(0)]
     v_0_xy = polar_to_cartesian(v_0_p[0], v_0_p[1])
     # Position of the first 'indent' of the star in polar coordinates
-    v_1_p = [r_small, to_theta(math.pi / 4)]
+    v_1_p = [r_small, to_theta(math.pi / 5)]
     v_1_xy = polar_to_cartesian(v_1_p[0], v_1_p[1])
 
     v_diff_xy = subtract(v_1_xy, v_0_xy)
